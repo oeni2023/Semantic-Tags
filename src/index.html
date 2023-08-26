@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- The content of this web page shall be in german language. Lore ipsum is only a placeholder and will be replaced. -->
+<!-- The content of this web page shall be in german language. Lore ipsum is only a placeholder and will be replaced. -->
+<html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Sunday-Runners</title>
     <!-- Minified version -->
     <!-- <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css"> -->
@@ -13,9 +15,9 @@
 
 </head>
 <body>
-<header id="#top">
+<header id="top">
    <h1>Sunday-Runners</h1>
-    <picture><img src="../res/header_blur.jpg" alt="Jogger in berglandschaft. Nur der Rum    pf der Person ist sichtbar. Unscharfes Bild"></picture>
+    <figure><img src="../res/header_blur.jpg" alt="Jogger in berglandschaft. Nur der Rum    pf der Person ist sichtbar. Unscharfes Bild"></figure>
 
     <nav>
         <a href="#about">Über</a>
@@ -30,7 +32,7 @@
 <main>
     <section>
         <!-- ABOUT -->
-        <a id="about"><h3>Über</h3></a>
+        <a id="about"><h2>Über</h2></a>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
@@ -40,50 +42,51 @@
 
     <section>
         <!-- TRAINING -->
-        <a id="training"><h3>Training</h3></a>
+        <a id="training"><h2>Training</h2></a>
         <aside id="currentrun">
-            <p><b>Nächstes Training:</b> <mark>16.08.2023</mark>; Intervall (1-2-3-2-1 Pyramide); Füllerich </p>
+            <p><strong>Nächstes Training:</strong> <mark>16.08.2023</mark>; Intervall (1-2-3-2-1 Pyramide); Füllerich </p>
         </aside>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
         <!-- Make table responsive -->
-        <div style="overflow-x:auto;">
-        <table>
-            <caption><h4>Das nächste und absolvierte Trainings</h4></caption>
-            <thead>
-            <tr>
-                <th>Datum</th>
-                <th>Typ</th>
-                <th>Distanz</th>
-                <th>Aufgabe</th>
-                <th>Kategorie</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>16.08.2023</td>
-                <td>Intervall</td>
-                <td>30.2 km</td>
-                <td>keine</td>
-                <td>mittel</td>
-            </tr>
-            <tr>
-                <td>13.08.2023</td>
-                <td>Longjog</td>
-                <td>21 km</td>
-                <td>20min EL; ;1-2-3-2-1 Pyramide Pace4:30 mit TP 0.5km; 20min AL</td>
-                <td>mittel</td>
-            </tr>
-            <tr>
-                <td>10.08.2023</td>
-                <td>Intervall</td>
-                <td>12 km</td>
-                <td>20min EL; 3-2-1km Pace4:30 mit TP 1km; 20min AL</td>
-                <td>mittel</td>
-            </tr>
-            </tbody>
-        </table>
+<!--        <div style="overflow-x:auto;">-->
+        <div class="table_wrapper">
+            <h3>Das nächste und absolvierte Trainings</h3>
+            <table>
+                <thead>
+                <tr>
+                    <th>Datum</th>
+                    <th>Typ</th>
+                    <th>Distanz</th>
+                    <th>Aufgabe</th>
+                    <th>Kategorie</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><time datetime="2023-08-16">16.08.2023</time></td>
+                    <td>Intervall</td>
+                    <td>30.2 km</td>
+                    <td>keine</td>
+                    <td>mittel</td>
+                </tr>
+                <tr>
+                    <td><time datetime="2023-08-13">13.08.2023</time></td>
+                    <td>Longjog</td>
+                    <td>21 km</td>
+                    <td>20min EL; ;1-2-3-2-1 Pyramide Pace4:30 mit TP 0.5km; 20min AL</td>
+                    <td>mittel</td>
+                </tr>
+                <tr>
+                    <td><time datetime="2023-08-10">10.08.2023</time></td>
+                    <td>Intervall</td>
+                    <td>12 km</td>
+                    <td>20min EL; 3-2-1km Pace4:30 mit TP 1km; 20min AL</td>
+                    <td>mittel</td>
+                </tr>
+                </tbody>
+            </table>
         </div>
 
         <a href="#top">Zum Anfang</a>
@@ -92,35 +95,37 @@
 
     <section>
         <!-- WETTKÄMPFE -->
-        <a id="competions"><h3>Wettkämpfe</h3></a>
+        <a id="competions"><h2>Wettkämpfe</h2></a>
         <aside>
-            <p><b>Nächster Wettkamp:</b> <mark>16.09.2023</mark>; <b>Greifenseelauf</b>; Halbmarathon; Uster</p>
+            <p><strong>Nächster Wettkamp:</strong> <mark>16.09.2023</mark>; <b>Greifenseelauf</b>; Halbmarathon; Uster</p>
         </aside>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
         <!-- Make table responsive -->
-        <div style="overflow-x:auto;">
-        <table>
-            <thead>
-            <tr>
-                <th>Datum</th>
-                <th>Name</th>
-                <th>Typ</th>
-                <th>Distanz</th>
-                <th>Link</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>16.09.2023</td>
-                <td>Greifenseelauf</td>
-                <td>Halbmarathon</td>
-                <td>21.09 km</td>
-                <td><a href="https://www.greifenseelauf.ch">www.greifenseelauf.ch</a></td>
-            </tr>
-            </tbody>
-        </table>
+<!--        <div style="overflow-x:auto;">-->
+       <div class="table_wrapper">
+           <h3>Der nächste und absolvierte Wettkämpfe</h3>
+           <table>
+               <thead>
+               <tr>
+                   <th>Datum</th>
+                   <th>Name</th>
+                   <th>Typ</th>
+                   <th>Distanz</th>
+                   <th>Link</th>
+               </tr>
+               </thead>
+               <tbody>
+               <tr>
+                   <td><time datetime="2023-09-16">16.09.2023</time></td>
+                   <td>Greifenseelauf</td>
+                   <td>Halbmarathon</td>
+                   <td>21.09 km</td>
+                   <td><a href="https://www.greifenseelauf.ch">www.greifenseelauf.ch</a></td>
+               </tr>
+               </tbody>
+           </table>
         </div>
 
         <a href="#top">Zum Anfang</a>
@@ -129,11 +134,11 @@
     
     <section>
         <!-- Fotos -->
-        <a id="photos"><h3>Fotos</h3></a>
+        <a id="photos"><h2>Fotos</h2></a>
 
-        <picture><img src="../res/14814205_orig_blur.jpg" alt="Gehende Jogger. Unscharfes Bild.">
+        <figure><img src="../res/14814205_orig_blur.jpg" alt="Gehende Jogger. Unscharfes Bild.">
             <figcaption>Gehen statt Joggen</figcaption>
-        </picture>
+        </figure>
         
         <a href="#top">Zum Anfang</a>
 
